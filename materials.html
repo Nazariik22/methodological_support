@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Перелік уроків і методичні матеріали з інформатики, робототехніки, вебдизайну та графічного дизайну.">
+    <title>Навчальні матеріали</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./img/f.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="index.html"><span class="brand-mark">IT</span><span>Освітні матеріали <small>Крутяк Н.
+                    О.</small></span></a>
+        <button class="menu-toggle" aria-label="Відкрити меню" aria-expanded="false">☰</button>
+        <nav class="main-nav"><a href="index.html">Головна</a><a class="active" href="materials.html">Навчальні
+                матеріали</a></nav>
+    </header>
+    <main class="materials-main container">
+        <div class="materials-hero">
+            <p class="eyebrow">БІБЛІОТЕКА НАВЧАЛЬНИХ МАТЕРІАЛІВ</p>
+            <h1>Відкривай тему.<br><span>Переходь до практики.</span></h1>
+            <p class="lead">Оберіть навчальний напрям, щоб переглянути теми уроків і перейти до матеріалів. Посилання на
+                Google Drive додаються до відповідних уроків.</p>
+        </div>
+        <div class="materials-toolbar">
+            <div><strong>Навчальні програми</strong>
+                <p>Теми та матеріали для роботи на заняттях</p>
+            </div><span class="edit-note">Шаблон для наповнення</span>
+        </div>
+        <div id="course-accordions" class="accordion-list"></div>
+        <div class="update-note"><span>↗</span>
+            <div><strong>Матеріали для 11–12 класів</strong>
+                <p>Зміст і посилання на навчальні матеріали для 11 та 12 класів буде доповнено до початку 2027–2028
+                    навчального року.</p>
+            </div>
+        </div>
+        <a class="back-link" href="index.html">← Повернутися на головну</a>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-inner"><span>© <span id="year"></span> Крутяк Н. О.</span><span>Навчальні матеріали
+                з інформатики</span><a href="index.html">На головну ↗</a></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
